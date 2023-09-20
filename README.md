@@ -3,3 +3,5 @@
 # Install Terraform cli
 
 # Working with envar
+
+#Install AWS cli
