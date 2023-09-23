@@ -7,3 +7,5 @@
 # Install AWS cli
 
 # Terraform Random Provider
+
+# TF Alias in bash profile
