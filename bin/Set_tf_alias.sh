@@ -14,8 +14,9 @@ if [ -e "$bash_profile_file" ]; then
         echo "$alias_to_add" >> "$bash_profile_file"
         echo "Alias 'tf' for 'terraform' added to $bash_profile_file."
         # Source .bash_profile to apply changes to the current session
-        source "$bash_profile_file"
     fi
 else
     echo "Error: $bash_profile_file does not exist. Please create it or add the alias manually."
 fi
+
+source "$bash_profile_file"
