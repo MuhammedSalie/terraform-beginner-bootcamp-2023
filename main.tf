@@ -16,6 +16,15 @@ terraform {
   }
 }
 
+terraform {
+  cloud {
+    organization = "MMIHoldings_Platforms_Test"
+
+    workspaces {
+      name = "Terra-house-1"
+    }
+  }
+}
 provider "aws" {
   # Configuration options
 }
