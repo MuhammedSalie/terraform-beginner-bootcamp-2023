@@ -16,6 +16,7 @@ credentials_json='{
 }'
 
 # Write the JSON content to credentials.tfrc.json
+mkdir /home/gitpod/.terraform.d/
 echo "$credentials_json" > /home/gitpod/.terraform.d/credentials.tfrc.json
 
-echo "credentials.tfrc.json file has been created."
+echo "/home/gitpod/.terraform.d/credentials.tfrc.json file has been created."
