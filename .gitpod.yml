@@ -10,6 +10,7 @@ tasks:
     before: |
       source ./bin/AWS_install_cli.sh
       source ./bin/Set_tf_alias.sh
+      source ./bin/Generate_TF_Credentials.sh
 vscode:
   extensions:
     - amazonwebservices.aws-toolkit-vscode
