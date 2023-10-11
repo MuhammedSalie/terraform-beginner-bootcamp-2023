@@ -9,3 +9,7 @@
 # Terraform Random Provider
 
 # TF Alias in bash profile
+
+# Automated TF Credentials
+
+# Fix missing resources with TF import
