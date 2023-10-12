@@ -15,3 +15,5 @@
 # Fix missing resources with TF import
 
 # Terrahouse module
+
+# Setup static website
